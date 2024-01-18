@@ -338,4 +338,103 @@
     color: black;
     font-size: 16px;
   }
+/* Media queries  */
+@media (max-width: 1024px) {
+    .grid {
+      grid-template-columns: minmax(280px, 0.2fr);
+    }
   
+    .portfolio {
+      grid-template-columns: minmax(300px, 0.3fr);
+    }
+  
+    .main {
+      margin-top: 40px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-section {
+      padding: 40px 20px;
+      padding-top: 40px;
+      padding-right: 20px;
+      padding-bottom: 40px;
+      padding-left: 20px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+  
+    .imagen-principal {
+      max-width: max(250px, 50%);
+    }
+  
+    .text-description {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  
+    .descargar {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  
+    .navbar {
+      display: none;
+    }
+  
+    .footer {
+      align-items: center;
+      
+    }
+  
+    .footer-nav{
+      display: none;
+    }
+  
+    .contact-section {
+      align-items: center;
+      row-gap: 2rem;
+    }
+  
+    .contact-info h2 {
+      text-align: center;
+    }
+  
+    .contact-info p {
+      text-align: center;
+      margin-top: 0;
+      padding-right: 0;
+    }
+  
+    .contact-info h2,
+    .contact-form h2 {
+      text-align: center;
+    }
+  
+    .social-icons {
+      align-items: center;
+    }
+  
+   
+  
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .perfil {
+      max-width: 30%;
+    }
+  }
+  
+  @media (max-width: 512px) {
+    .name-fields {
+      flex-direction: column;
+    }
+  
+    .textoContacto {
+      width: 100%;
+    }
+  }
+    
