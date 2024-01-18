@@ -129,3 +129,25 @@
     font-size: 18px;
     margin-top: 10px;
   }
+
+  /*sección "Sobre Mí" */
+.perfil {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider {
+    height: 4px;
+    width: 60px;
+    background-color: pink;
+    margin-top: 5px;
+    margin-bottom: 2em;
+  }
+
+  
+  
