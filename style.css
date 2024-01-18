@@ -1,0 +1,36 @@
+/* generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+  }
+  
+  /*  barra de navegación */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3vh 1vw 4vh 1vw;
+  }
+  
+  .link {
+    text-decoration: none;
+    margin-right: 1vw;
+    color: black;
+    padding: 1vw;
+  }
+  
+  .link:hover {
+    border-radius: 20px;
+    background-color: rgb(223, 167, 197);
+  }
+  
+  .span-letter {
+    color: pink;
+    margin-right: 5vw;
+  }
