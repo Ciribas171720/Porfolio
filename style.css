@@ -250,3 +250,92 @@
   }
 
   
+/*  pie de página */
+.footer {
+    background-color: #FFB6C1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .social-icons2 {
+    text-align: center;
+  }
+  
+  .social-icons2 a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .made-with-love {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  i.fas.fa-heart {
+    color: #FF0000;
+    font-size: 18px;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+  }
+  
+  .social-icon {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: palevioletred;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: palevioletred;
+    color: white;
+  }
+  
+  .linkedin .text {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .correo.text {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .twitter .text {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .discord .text {
+    color: black;
+    font-size: 16px;
+  }
+  
