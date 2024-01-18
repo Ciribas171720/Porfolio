@@ -150,4 +150,21 @@
   }
 
   
+  /*  sección de portfolio */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 0.3fr));
+    justify-content: center;
+    grid-column-gap: 5vw;
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
   
+  .portfolio-box {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 5%;
+  }
