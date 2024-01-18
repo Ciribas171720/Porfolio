@@ -151,24 +151,53 @@
 
   
   /*  sección de portfolio */
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 0.3fr));
-    justify-content: center;
-    grid-column-gap: 5vw;
+
+  .portfolio {
     background-color: #f2f2f2;
+  }
+  
+  .portfolio-title {
     padding: 2rem;
+    text-align: center;
+  }
+  
+  .portfolio-title-span {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .portfolio-description {
+    margin-top: 1.5vh;
+    text-align: center;
+  }
+  
+  .portfolio-description-span {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-box-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10px, 0.3fr));
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 5vw;
+  padding: 2rem;
   }
   
   .portfolio-box {
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin-top: 5%;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 5%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
-
+  
+  
   
 /* sección de contacto */
 .contact-section {
