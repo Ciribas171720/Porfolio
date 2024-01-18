@@ -74,3 +74,38 @@
     margin-top: 1vh;
     font-size: 1.3em;
   }
+
+  /*  sección de conocimientos */
+.conocimientos {
+    background-color: #f2f2f2;
+  }
+  
+  .conocimientos-div-text {
+    text-align: center;
+    margin-bottom: 5vh;
+    padding-top: 2vh;
+  }
+  
+  .conocimientos-span {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 0.2fr));
+    justify-content: center;
+    grid-column-gap: 5vw;
+    grid-row-gap: 1vh;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .grid-item {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
