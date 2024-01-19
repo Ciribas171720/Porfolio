@@ -452,6 +452,11 @@
     .social-logos-container {
       margin-top: 2.5%;
     }
+
+    .footer-nav{
+
+      display: none;
+    }
   }
   
   @media (max-width: 524px) {
@@ -471,6 +476,11 @@
         margin-top: 10px;
         margin-bottom: 20px;
   
+      }
+
+      .footer-nav{
+
+        display: none;
       }
   }
   
@@ -493,4 +503,10 @@
         margin-top: 10px;
         margin-bottom: 20px;
   
-      }}
+      }
+      .footer-nav{
+
+        display: none;
+      }
+    
+    }
