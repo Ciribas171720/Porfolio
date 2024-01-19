@@ -368,6 +368,10 @@
     font-size: 16px;
   }
 /* Media queries  */
+/*1024 WIDTH*/
+
+/*1024 WIDTH*/
+
 @media (max-width: 1024px) {
     .conocimientos {
       min-width: fit-content;
@@ -491,4 +495,3 @@
   
       }
   }
-    
